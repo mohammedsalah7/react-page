@@ -1,0 +1,735 @@
+
+
+
+
+.contaner{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+   
+    
+}
+
+ .image {
+    margin:20px;
+    height: 30px;
+    
+   
+}
+    
+.input-text{
+   top: 28px;
+   left: 150px;
+   position: absolute;
+    
+} 
+.input-text> input{
+    width: 600px;
+    height: 30px;
+    border : #69657c 1px solid ;
+    border-radius: 50px ;
+   
+}
+
+.menu-thumb {
+    width: 20px; 
+    height: 20px;
+ 
+}
+.list li {
+    list-style-type: none;
+    display: inline;
+    padding:6px;
+    left:100px;
+    position: relative;
+    margin-left:6px;
+    top:-10px;
+    
+    
+}
+.list li a{
+    text-decoration:none;
+    color:#69657c;
+    cursor: pointer;
+     
+
+}
+hr{
+    height: 0px;
+    color:#87868c;
+    opacity: 0.4;
+    
+}
+.right-side .button{
+
+    align-self: flex-end;
+    right: 20px; /* new */
+    top: 24px; /* new */
+    position: absolute; /* new */
+    border: #4285f4 solid ;
+    background-color: #4285f4;
+    font-size: 14px;
+    font-weight: bold;
+    color:white;
+    cursor: pointer;
+    border-radius: 4px;
+    padding:5px 15px 5px 15px;
+
+} 
+.right-side .menu-thumb{
+    align-self: flex-end;
+    right: 115px; /* new */
+    top: 28px; /* new */
+    position: absolute; /* new */
+
+
+}
+
+.about h6 {
+    color:#87868c;
+    position: relative;
+    left: 150px;
+    top:-12px;
+  
+}
+.arrow-icon{
+    width: 10px;
+    color:#87868c;
+    opacity: 0.8;
+}
+
+.top-link{
+    text-decoration: none;
+    position: relative;
+    left:150px;
+    color:#87868c;
+}
+.link-react{
+    width: 600px;
+    position: relative;
+    left: 150px;
+    top: 5px;
+}
+    
+.link-react a{
+    text-decoration: none;
+    position: relative;
+    color:blue;
+    font-size: 20px;
+    
+}
+
+.link-react .info{
+    position: relative;
+    top: -10px;
+    font-size:15px;
+    color:#54535a;
+}
+.inside-links{
+    display:flex;
+    justify-content: space-between;
+}
+
+.left-side-link{
+  
+    width: 223px;
+    color:#54535a;
+}
+
+.right-side-link{
+    
+    color:#54535a;
+    width: 223px;
+}
+
+.left-side-link .end-side{
+    font-size: 13px;
+}
+.aside-rihgt{
+    float: right;
+    position: relative;
+    left: 650px;
+    top: -395px;
+    border : black solid 1px;
+    width:500px;
+    height:650px;
+    border-radius: 20px;
+    
+    
+
+}
+
+.all-title{
+    display: flex;
+    justify-content: space-between;
+}
+  .title {
+      padding:5px ; 
+  }
+ 
+.title h6{
+    position: relative;
+    top:-10px
+}
+.icon-pic{
+    width: 180px;
+}
+.icon{
+    position: relative;
+    top: -50px;
+    right: 10px;
+}
+
+.discrebtion{
+    padding:5px
+}
+.also{
+    padding:5px;
+    display: flex;
+    justify-content: space-between;
+}
+.other-fram{
+    display: flex;
+    justify-content: space-between;
+    padding:5px
+}
+.other-fram  .size-img{
+
+    height: 70px;
+    width: 80px;
+    
+   
+}
+.link2 a {
+    
+    text-decoration:none;
+    
+
+}
+.link2 h1 a{
+    color:blue;
+}
+
+.link2{
+    position: relative;
+    left: 150px;
+    top:-640px;
+    width: 600px;
+    height:600px;
+   
+   
+}
+.top-link2  {
+    position: relative;
+     top:10px;
+    color:#54535a;;
+   
+     
+}
+.info2{
+    position: relative;
+    top:-15px;
+    color:#54535a;
+    font-size:15px;
+}
+.under-link{
+    position: relative;
+    top:-35px;
+    font-size: 13px;
+    display: flex;
+    justify-content: space-between;
+    color:#54535a;
+}
+
+.link3 a {
+    text-decoration:none;
+   
+
+}
+.link3 h1 a {
+    color: blue;
+   font-size: 20px;
+}
+
+.link3{
+    width: 600px;
+    position: relative;
+    top:-450px;
+    left:150px;
+}
+.top-link3{
+    position: relative;
+    top: 10px;
+    color:#54535a;
+}
+
+.info3 {
+   position: relative;
+   top: -15px;
+   color:#54535a;
+
+}
+.table-style{
+    position: relative;
+    left: 150px;
+    top:-450px;
+   border-collapse:collapse ;
+   width: 600px;
+   line-height: 25px;
+    
+    border-style: hidden; 
+    box-shadow: 0 0 0 1px
+
+}
+table, td, th {
+    border: 1px solid #54535a;
+    padding:10px;
+  }
+  .arrow2{
+      width: 20px;
+  }
+
+  td {
+      display:  flex;
+      justify-content: space-between;
+  }
+  .link4{
+      position: relative;
+      left: 150px;
+      width: 600px;
+      top:-400px;
+  }
+   .link4 a{
+       text-decoration:none;
+   }
+
+   .info4{
+       position: relative;
+       top:-40px;
+       color:#54535a;
+   } 
+   .top-link4{
+    color:#54535a;
+   }
+   .link4 h1 a{
+       color:blue;
+       font-size: 20px;
+       position: relative;
+       top:-20px;
+   }
+
+    .link4{
+      position: relative;
+      left: 150px;
+      width: 600px;
+      top:-650px;
+  }
+   .link4 a{
+       text-decoration:none;
+   }
+
+   .info4{
+       position: relative;
+       top:-40px;
+       color:#54535a;
+   } 
+   .top-link4{
+    color:#54535a;
+   }
+   .link4 h1 a{
+       color:blue;
+       font-size: 20px;
+       position: relative;
+       top:-20px;
+   } 
+   /* ///// */
+   .link5{
+    position: relative;
+    left: 150px;
+    width: 600px;
+    top:-700px;
+}
+ .link5 a{
+     text-decoration:none;
+ }
+
+ .info5{
+     position: relative;
+     top:-20px;
+     color:#54535a;
+ } 
+ .top-link5{
+     position: relative;
+     top: 15px;
+  color:#54535a;
+ }
+ .link5 h1 a{
+     color:blue;
+     font-size: 20px;
+     position: relative;
+     top:-5px;
+ }
+
+/* 6 */
+.link6{
+    position: relative;
+    left: 150px;
+    width: 600px;
+    top:-730px;
+}
+ .link6 a{
+     text-decoration:none;
+ }
+
+ .info6{
+     position: relative;
+     top:-20px;
+     color:#54535a;
+ } 
+ .top-link6{
+     position: relative;
+     top: 15px;
+  color:#54535a;
+ }
+ .link6 h1 a{
+     color:blue;
+     font-size: 20px;
+     position: relative;
+     top:-5px;
+ }
+
+
+
+ .videos {
+     position: relative;
+     left: 150px;
+     top:-450px; 
+     width: 600px;
+     height: 600px;
+     
+ }
+ .title-videos{
+     text-decoration: none;
+     color:#54535a;
+ }
+
+ .list-videos {
+     position: relative;
+     display: flex;
+     flex-direction: row;
+     justify-content:space-between;
+    
+ }
+
+ .v1{
+     position: relative;
+     width: 186px;
+     height: 300px;
+     border:solid 1px black;
+     border-radius: 10px;
+     
+    
+ }
+
+ .v1 img{
+     position: relative;
+     top:-2px;
+     right: 5px;
+     height: 100px;
+     width:191px ;
+ }
+
+ .v1 a {
+    text-decoration:none;
+    color: #4285f4;
+    position: relative;
+    font-size:20px;
+    
+    
+    
+}
+.v1 h5{
+    position: relative;
+    font-size: 13px;
+    color:#54535a;
+    top:50px;
+    padding:10px;
+    line-height: 20px;
+    
+}
+ .v2{
+    position: relative;
+    width: 186px;
+    height: 300px;
+    border:solid 1px black;
+    border-radius: 10px;
+   
+}
+.v2 img{
+    position: relative;
+    top:-3px;
+    right: 5px;
+    left: -1px;
+    height: 100px;
+    width:187px ;
+}
+.v2 a {
+    text-decoration:none;
+    color: #4285f4;
+    position: relative;
+    top:10px;
+    left: 10px;
+    font-size: 20px;
+   
+    
+    
+}
+.v2 h5{
+    position: relative;
+    font-size: 13px;
+    color:#54535a;
+    top:70px;
+    padding:10px;
+    line-height: 20px;
+    
+}
+
+.v3{
+    position: relative;
+    width: 189px;
+    height: 300px;
+    border:solid 1px black;
+    border-radius: 10px;
+   
+}
+
+.v3 img{
+    position: relative;
+    top:-2px;
+    right: 0px;
+    height: 100px;
+    width:191px ;
+}
+
+.v3 a {
+    text-decoration:none;
+    color: #4285f4;
+    position: relative;
+    font-size: 20px;
+    top:10px;
+    left: 10px;
+    
+}
+.v3 h5{
+    position: relative;
+    font-size: 13px;
+    color:#54535a;
+    top:70px;
+    padding:10px;
+    line-height: 20px;
+    
+}
+
+.search-links{
+  
+    width: 320px;
+    height: 250px;
+    position: relative;
+    left: 150px;
+    top:-750px;
+    text-decoration: none;
+
+   
+
+
+}
+.search-links a{
+    text-decoration: none;
+    color:blue
+}
+.inside-links-end{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    line-height: 25px;
+    padding:20px;
+   
+}
+
+.left-side-link-end{
+   
+    height: 100px;
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    
+   
+
+}
+.right-side-link-end{
+  
+    height: 100px;
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.google{
+   
+    width: 250px;
+    height: 50px;
+    font-size: 26px;
+    position: relative;
+    left: 350px;
+    top:-800px;
+    text-decoration: none;
+    
+}
+
+.google a{
+    text-decoration: none;
+}
+.arrow-end{
+    text-decoration: none;
+    position: relative;
+    width: 15px;
+    left: 80px;
+    top: -33px;
+}
+.blue{
+    color: #4285F4
+
+}
+.green{
+    color:#0F9D58
+
+}
+.red{
+    color:#DB4437
+}
+.yallow{
+    color:#F4B400;
+}
+
+
+.number{
+    font-size: 16px;
+position: relative;
+left: 20px;
+margin-right: 10px;
+top: 10px;
+color: #4285F4;
+
+
+}
+
+.one{
+position: relative;
+top: -20px;
+left: 5px;
+}
+.two{
+    position: relative;
+    top: -20px;
+    left: 13px;
+}
+.three{
+    position: relative;
+    top: -20px;
+    left: 19px;
+}
+.four{
+    position: relative;
+    top: -20px;
+    left: 26px;
+}
+.five{
+    position: relative;
+    top: -20px;
+    left: 34px;
+}
+.six{
+    position: relative;
+    top: -20px;
+    left: 40px;
+}
+.seven{
+    position: relative;
+    top: -20px;
+    left: 49px;
+}
+.eihgt{
+    position: relative;
+    top: -20px;
+    left: 56px;
+}
+.nine{
+    position: relative;
+    top: -20px;
+    left: 62px;
+}
+.ten{
+    position: relative;
+    top: -20px;
+    left: 66px;
+}
+.Next{
+    
+    font-size: 13px;
+    position: relative;
+    top: -10px;
+    left: 110px;
+    color: #4285F4;
+    
+  }
+
+
+
+
+
+
+.footer1{
+    position: relative;
+    background-color:  rgb(242, 242, 242);
+   
+    padding:5px;
+    
+
+}
+.footer1 a {
+ text-decoration: none;
+ color: #444;
+}
+
+.footer1 p{
+    position: relative;
+    left: 50px;
+}
+
+.footer2{
+    background-color: yellow;
+    position: relative;
+    top: -10px;
+
+  
+}
+.links-footer  {
+    display: flex;
+    flex-direction: row;
+     position: relative;
+     padding:10px;
+     
+    
+}
+.links-footer li  {
+
+   list-style: none;
+}
+.links-footer li  a  {
+
+    text-decoration: none;
+}
